@@ -1,8 +1,10 @@
-# Analysis-of-stock-market-for-10-companies-having-highest-market-cap-using-Python-and-Excel
-During the COVID-19 pandemic, the wealth of the billionaires especially from the technology companies have grown exponentially. According to the Business Insider report (2020) stated that the more than 40 million Americans have filed for unemployment during the pandemic while billionaires’ net worth has grown by half a trillion dollars. This is resulted mainly due to more people are forced to stay at the home and the offices have implemented work from home whereby the usage of internet and technology is increased drastically. Moreover, the companies have mostly benefited from the recovery of the global stock market during the pandemic. For instance, the net worth of the founder of the video conference platform Zoom grew by over $2.5 billion and former Microsoft CEO Steve Ballmer saw net worth increased by $15.7 billion (Woods, 2020). Therefore, in this study, I have selected the top 10 tech companies which have the highest market cap between June 2020 to December 2020. The companies are, Apple Inc, Microsoft Corporation, Taiwan Semiconductor Manufacturing Company, NVIDIA Corporation, Adobe Inc, ASML Holding, Intel, Salesforce, Cisco, Broadcom Inc.
-Data Collection and Cleaning
-For this research, the data is collected from Yahoo Finance using the Python codes. The dataset contains Date, high, Low, Open, Close, Volume and Adjusted Closed. I have collected data range from June to November 2020 to check the increase or decrease of stocks in the second wave of the pandemic.
-The data is cleaned using Excel and kept only Volume and Adjusted Stock Price for analysis. In this data set, there were no missing values after cleaning.
-Exploratory Analysis
-Exploratory analysis is performed after learning the data set. To check the outliners, analysis for each company for stock volume and adjusted closing price were performed. In stock volume, Apple company has 6 outliners which are the highest and then followed by CRM with 5 outliners, CSCO with 4 outliers, MSFT, TSM, and NDVA has 3 outliners which represents the trend is above normal and will have a higher mean, standard deviation, and standard error. While companies such as ADBE, INTC, ASML and AVGO has no outliners.
-In figure 2, Microsoft and AMSL have one outliner while other companies don’t have outliners.
+
+In this project i was asked to run a market market analysis during 1st and 2nd wave of COVID-19 to check the market reactions. The steps involved were:
+
+Data is scrapped using Python code from Yahoo Finance. 
+
+Data cleaning and data exploration is done both using Python & MS Excel. 
+
+Used SPSS software to count the number of ups and downs of the stock volumes during two phases. 
+
+Correlation analysis in the form of a heatmap was performed using Seaborn library in Python to find out relationship between the companies. 
